@@ -129,11 +129,9 @@ header h2 {
   outline: 1px solid orange;
 }
 
-
-.projects li {
-  width: 200px;
-  height: 200px;
-  border: 2px solid white;
+.projects-list {
+	width: 80%;
+	margin: 0 auto;
 }
 
 .projects li img {
@@ -141,9 +139,24 @@ header h2 {
   height: 200px;
 }
 
-.projects-list {
-  outline: 1px solid yellow;
-  overflow: auto;
-  margin: 0 auto;
-  width: 816px;
+.projects-list li {
+	width: 40%;
+	float: left;
+	height: 400px;
+	margin: 2% 5%;
+	text-align: center;
+	outline: 2px solid white;
+}
+
+
+@media (max-width: 1000px) {
+	.projects-list li {
+	  outline: 1px solid yellow;
+		width: 100%;
+		float: left;
+		height: 400px;
+		margin: 2% 5%;
+		text-align: center;
+		outline: 2px solid white;
+	}
 }
