@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
+    <title>David Espinoza</title>
     <link href="style.css" rel="stylesheet"/>
   </head>
 
@@ -12,6 +12,7 @@
       <ol class='nav-ol'>
         <li><a href='#home'>HOME</a></li>
         <li><a href='#about'>ABOUT</a></li>
+        <li><a href='#technologies'>TECHNOLOGIES</a></li>
         <li><a href='#projects'>PROJECTS</a></li>
         <li><a href=''>CONTACT</a></li>
       </ol>
@@ -29,36 +30,124 @@
       <div>
     </header>
 
-    <div style="height: 20px; color: black"><a name='about'>about</a></div>
+    <div style="height: 30px; color: black">
+      <a name='about'>about</a>
+    </div>
+
     <div class='about'>
       <div>
-        <h1>Cat Enthusiast</h1>
-        <h1>Tokusatsu Fanatic</h1>
-        <h1>Can Beat 2nd Graders in Basketball, Usually</h1>
+        <h1 class="section-title">About Me</h1>
+        <img src="images/me.jpg" class="me"/>
+        <p>I am a Front-End Developer with a passion for learning and tackling challenges. I have a background in law and politics, but fell in love with programming. I primarily use Front-End technologies like HTML, CSS, and JavaScript, but I am always interested in learning new languages and frameworks.</p>
+        <p>Outside of coding, I enjoy 1980s tokusatsu, being a Pokemon Master, and spending time with my cats.</p>
+        <p>I'm also teaching myself to longboard. No broken bones yet!</p>
       </div>
     </div>
 
-    <div style="height: 20px; color: black"><a name='projects'>projects</a></div>
+    <div style="height: 30px; color: black"><a name='technologies'>technologies</a></div>
+    <div class='technologies'>
+      <div>
+        <h1 class="section-title">Technologies</h1>
+        <ol class="tech-list">
+          <li>
+            <img src="images/react.jpg"/>
+            <p>ReactJS</p>
+          </li>
+          <li>
+            <img src="images/javascript.png"/>
+            <p>JavaScript</p>
+          </li>
+          <li>
+            <img src="images/css3.png"/>
+            <p>CSS/SCSS</p>
+          </li>
+          <li>
+            <img src="images/html.png"/>
+            <p>HTML</p>
+          </li>
+        <ol>
+      </div>
+    </div>
+
+    <div style="height: 30; color: black"><a name='projects'>projects</a></div>
     <div class='projects'>
+      <h1 class="section-title">Projects</h1>
+
+
+
       <ol class='projects-list'>
+
+
         <li>
-          <p>Yodel (Iron Yard Final Project)</p>
-            <img src="images/yodel.png">
+          <a
+            href="https://thawing-refuge-17659.herokuapp.com/"
+            target="_blank"
+            class="project-title">
+            <p>Yodel (Iron Yard Final Project)</p>
+            <img src="images/yodel.png" />
+          </a>
+          <div class="app-link">
+            <a href="https://thawing-refuge-17659.herokuapp.com/" target="_blank">
+              [App]
+            </a>
+          </div>
+          <div class="code-link">
+            <a href="https://thawing-refuge-17659.herokuapp.com/" target="_blank">
+              [Code]
+            </a>
+          </div>
+          <p>Built With: ReactJS, Redux, jQuery, CSS/SCSS, HTML,</p>
+          <p>Express, Passport, MongoDB </p>
+          <p>This is my final project for The Iron Yard's Front End Engineering course.</p>
+
         </li>
 
-        <li><p>Find the Cat Burger</p>
-          <a href="https://suneski.github.io/little-web-assignments/day-29-make-something-useless/index.html">
+
+
+
+
+
+        <li>
+          <a href="https://suneski.github.io/find-the-cat-burger/" target="_blank"
+          class="project-title">
+            <p>Find the Cat Burger</p>
             <img src="images/useless.png">
           </a>
+          <div class="app-link">
+            <a href="https://suneski.github.io/find-the-cat-burger/" target="_blank">
+              [App]
+            </a>
+          </div>
+          <div class="code-link">
+            <a href="https://github.com/Suneski/find-the-cat-burger" target="_blank">
+              [Code]
+            </a>
+          </div>
         </li>
 
-        <li><p>Github Repo Search</p>
-          <img src="images/github-repo-search.png">
-        </li>
 
-        <li><p>RPG Party Selector</p>
+
+
+        <!-- <li>
+          <a href="https://suneski.github.io/little-web-assignments/day-22-github-repo-search/index.html">
+            <p>Github Repo Search</p>
+            <img src="images/github-repo-search.png">
+          </a>
+          <div class="app-link">
+            <a href="https://suneski.github.io/find-the-cat-burger/">
+              [App]
+            </a>
+          </div>
+          <div class="code-link">
+            <a href="https://github.com/Suneski/find-the-cat-burger">
+              [Code]
+            </a>
+          </div>
+        </li> -->
+
+        <!-- <li><p>RPG Party Selector</p>
           <img src="images/rpg-party.png">
-        </li>
+        </li> -->
 
       </ol>
     </div>

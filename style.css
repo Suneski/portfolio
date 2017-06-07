@@ -1,3 +1,5 @@
+/******************* RESET *******************/
+
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -48,10 +50,14 @@ table {
 	border-spacing: 0;
 }
 
+
+/****************** NAVIGATION ******************/
+
 body {
   background-color: black;
   color: white;
   min-height: 2000px;
+	font-family: 'Orbitron', sans-serif;
 }
 
 nav {
@@ -92,14 +98,26 @@ nav a:hover {
   height: 20px;
 }
 
+.nav-ol li:hover {
+	-webkit-animation: boogie 0.1s ease-in-out 0.1s infinite alternate;
+}
+
+nav li:hover {
+	-webkit-animation: boogie 0.1s ease-in-out 0.1s infinite alternate;
+}
+
+
+
+
 
 
 
 header {
-  font-family: 'Orbitron', sans-serif;
   position: relative;
   height: 600px;
   width: 100%;
+	background-image: url("images/starry-sky.jpg");
+	background-size: cover;
 }
 
 .name-and-title {
@@ -118,15 +136,10 @@ header h2 {
   font-size: 30px;
 }
 
-.about {
-  overflow: auto;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 30px;
-  position: relative;
-  margin: 0 auto;
-  z-index: 3;
-  height: 600px;
-  outline: 1px solid orange;
+
+.projects {
+
+	clear: both;
 }
 
 .projects-list {
@@ -139,24 +152,169 @@ header h2 {
   height: 200px;
 }
 
+/*.projects li img:hover {
+	-webkit-animation: boogie 0.1s ease-in-out 0.1s infinite alternate;
+}*/
+
 .projects-list li {
-	width: 40%;
+	width: 46%;
 	float: left;
 	height: 400px;
-	margin: 2% 5%;
+	margin: 2% 1%;
 	text-align: center;
 	outline: 2px solid white;
 }
 
+@-webkit-keyframes boogie {
+ from {
+    -webkit-transform: rotate(5deg);
+ }
+ to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-5deg);
+ }
 
-@media (max-width: 1000px) {
+}
+
+
+
+
+
+@media (max-width: 1300px) {
 	.projects-list li {
-	  outline: 1px solid yellow;
 		width: 100%;
 		float: left;
 		height: 400px;
 		margin: 2% 5%;
 		text-align: center;
-		outline: 2px solid white;
+		outline: 1px solid white;
+	}
+}
+
+
+.tech-list img {
+	height: 200px;
+	width: 180px;
+}
+
+.tech-list li {
+	float: left;
+	margin: 0 10px;
+}
+
+
+.project-title, .app-link a, .code-link a {
+	text-decoration: none;
+	color: white;
+}
+
+.project-title:visited, .app-link a:visited, .code-link a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.project-title:hover, .app-link a:hover, .code-link a:hover {
+	color: grey;
+}
+
+.app-link, .code-link {
+	margin-top: 360px;
+}
+
+.app-link {
+	float: left;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.code-link {
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+}
+
+
+
+
+
+@media (max-width: 750px) {
+	.name-and-title {
+	  position: absolute;
+	  left: 10px;
+	  top: 250px;
+	  border: 4px solid white;
+	  padding: 10px;
+	}
+
+	nav li {
+	  font-size: 10px;
+	}
+
+	.nav-ol li {
+	  padding: 5px 0;
+	}
+}
+
+
+.hide-names {
+	display: none;
+}
+
+
+.section-title {
+	border: 3px solid white;
+	width: 200px;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	padding: 5px 0;
+  font-size: 30px;
+}
+
+
+.tech-list li {
+	text-align: center;
+	line-height: 1.5;
+}
+
+
+.technologies {
+	min-height: 300px;
+}
+
+
+.about {
+  overflow: auto;
+  position: relative;
+  margin: 0 auto;
+  z-index: 3;
+	width: 70%;
+  min-height: 300px;
+}
+
+.me {
+	width: 250px;
+	opacity: .8;
+	border-radius: 5%;
+	border: 2px solid white;
+	float: left;
+}
+
+.about p {
+	line-height: 1.5;
+	margin-top: 10px;
+	margin-left: 270px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+@media (max-width: 1000px) {
+	.me {
+		width: 100px;
+		display: block;
+		text-align: center;
+	}
+	.about p {
+		margin-left: 110px;
+		text-align: left;
 	}
 }
