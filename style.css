@@ -97,6 +97,10 @@ nav a:hover {
   height: 20px;
 }
 
+#mail-small {
+	width: 25px;
+}
+
 .nav-ol li:hover {
 	-webkit-animation: boogie 0.1s ease-in-out 0.1s infinite alternate;
 }
@@ -402,6 +406,11 @@ header h2 {
 	display: block;
 }
 
+#mail a {
+	color: white;
+	text-decoration: none;
+}
+
 .contact-item {
 	float: left;
 	margin: 20px 50px 40px 50px;
@@ -459,4 +468,9 @@ header h2 {
 	#linkedin-big {
 		margin: 0 auto;
 	}
+}
+
+.contact-item:hover {
+	padding-bottom: 10px;
+	border-bottom: 3px solid white;
 }
