@@ -165,7 +165,7 @@ header h2 {
 .projects-list li {
 	width: 47%;
 	float: left;
-	min-height: 400px;
+	min-height: 480px;
 	margin: 1% 1% 2% 1%;
 	padding: 5px;
 	text-align: center;
@@ -264,6 +264,10 @@ header h2 {
 }
 
 .project-title {
+	font-size: 30px;
+}
+
+.built-with, .app-desc {
 	font-size: 20px;
 }
 
@@ -272,7 +276,8 @@ header h2 {
 }
 
 .app-link, .code-link {
-	margin-top: 360px;
+	margin-top: 420px;
+	font-size: 20px;
 }
 
 .app-link {
@@ -376,10 +381,17 @@ header h2 {
 
 @media (max-width: 650px) {
 	.projects-list li {
-		min-height: 500px;
+		min-height: 460px;
 	}
 	.app-link, .code-link {
-		margin-top: 460px;
+		margin-top: 420px;
+		font-size: 15px;
+	}
+	.project-title {
+		font-size: 20px;
+	}
+	.built-with, .app-desc {
+		font-size: 15px;
 	}
 }
 
