@@ -53,6 +53,8 @@ table {
 
 /****************** NAVIGATION ******************/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
 body {
   background-color: black;
   color: white;
@@ -252,6 +254,7 @@ header h2 {
 .project-title, .app-link a, .code-link a {
 	text-decoration: none;
 	color: white;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .project-title:visited, .app-link a:visited, .code-link a:visited {
@@ -322,12 +325,13 @@ header h2 {
 
 .section-title {
 	border: 3px solid white;
-	width: 200px;
+	width: 250px;
 	text-align: center;
 	margin: 0 auto 20px auto;
 	padding: 5px 0;
   font-size: 30px;
 	clear: both;
+	font-family: 'Roboto Mono', monospace;
 }
 
 
