@@ -1,0 +1,24 @@
+.projects {
+
+	clear: both;
+}
+
+.projects-list {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.projects li img {
+  width: 200px;
+  height: 200px;
+}
+
+.projects-list li {
+	width: 47%;
+	float: left;
+	min-height: 480px;
+	margin: 1% 1% 2% 1%;
+	padding: 5px;
+	text-align: center;
+	outline: 2px solid white;
+}
