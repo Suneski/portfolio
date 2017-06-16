@@ -1,0 +1,55 @@
+nav {
+  position: fixed;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: black;
+  z-index: 4;
+  height: 20px;
+  padding: 2px 0;
+}
+
+nav li {
+  float: left;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.nav-ol {
+	margin-left: 15px;
+}
+
+.nav-ol li {
+  padding: 2px 0;
+  margin-bottom: 4px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+.social-media {
+  float: right;
+}
+
+.social-media img {
+  height: 20px;
+}
+
+#mail-small {
+	padding-top: 3px;
+	width: 25px;
+	height: 16px;
+}
+
+.nav-ol li:hover {
+	-webkit-animation: boogie 0.1s ease-in-out 0.1s infinite alternate;
+}
+
+nav li:hover {
+	-webkit-animation: boogie 0.1s ease-in-out 0.1s infinite alternate;
+}
