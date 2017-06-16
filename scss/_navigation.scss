@@ -1,7 +1,6 @@
 nav {
   position: fixed;
   width: 100%;
-  font-family: sans-serif;
   background-color: black;
   z-index: 4;
   height: 20px;
@@ -52,4 +51,16 @@ nav a:hover {
 
 nav li:hover {
 	-webkit-animation: boogie 0.1s ease-in-out 0.1s infinite alternate;
+}
+
+
+@-webkit-keyframes boogie {
+ from {
+    -webkit-transform: rotate(5deg);
+ }
+ to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-5deg);
+ }
+
 }
