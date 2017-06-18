@@ -22,3 +22,55 @@
 	text-align: center;
 	outline: 2px solid white;
 }
+
+.project-title, .app-link a, .code-link a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.project-title:visited, .app-link a:visited, .code-link a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.project-title:hover, .app-link a:hover, .code-link a:hover {
+	color: grey;
+}
+
+.project-title {
+	font-size: 30px;
+}
+
+.built-with, .app-desc {
+	font-size: 20px;
+}
+
+.project-title img {
+	margin: 10px 0;
+}
+
+.app-link, .code-link {
+	margin-top: 420px;
+	font-size: 20px;
+}
+
+.app-link {
+	float: left;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.code-link {
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.app-desc {
+	margin: 20px 0;
+}
+
+#projects {
+	padding-top: 40px;
+}
