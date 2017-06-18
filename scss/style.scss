@@ -1,35 +1,12 @@
 @import 'reset';
 @import 'about';
 @import 'contact';
+@import 'general';
 @import 'header';
 @import 'navigation';
 @import 'projects';
 @import 'technologies';
 @import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto+Mono');
-
-
-
-
-
-
-body {
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-	// font-family: 'Roboto Mono', monospace;
-	// font-family: 'Orbitron', sans-serif;
-}
-
-.section-title {
-	border: 3px solid white;
-	width: 250px;
-	text-align: center;
-	margin: 0 auto 20px auto;
-	padding: 5px 0;
-  font-size: 30px;
-	clear: both;
-	font-family: 'Roboto Mono', monospace;
-}
 
 
 @media (max-width: 1300px) {

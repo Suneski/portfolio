@@ -111,6 +111,21 @@ table {
   padding-bottom: 10px;
   border-bottom: 3px solid white; }
 
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif; }
+
+.section-title {
+  border: 3px solid white;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  padding: 5px 0;
+  font-size: 30px;
+  clear: both;
+  font-family: 'Roboto Mono', monospace; }
+
 header {
   position: relative;
   height: 600px;
@@ -258,21 +273,6 @@ nav li:hover {
   text-align: center;
   line-height: 1.5;
   margin: 30px 50px 0 50px; }
-
-body {
-  background-color: black;
-  color: white;
-  font-family: sans-serif; }
-
-.section-title {
-  border: 3px solid white;
-  width: 250px;
-  text-align: center;
-  margin: 0 auto 20px auto;
-  padding: 5px 0;
-  font-size: 30px;
-  clear: both;
-  font-family: 'Roboto Mono', monospace; }
 
 @media (max-width: 1300px) {
   .projects-list li {
