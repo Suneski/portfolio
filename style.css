@@ -46,6 +46,71 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.about {
+  overflow: auto;
+  position: relative;
+  margin: 0 auto;
+  z-index: 3;
+  width: 70%;
+  min-height: 300px; }
+
+.me {
+  width: 250px;
+  opacity: .8;
+  border-radius: 5%;
+  border: 2px solid white;
+  float: left; }
+
+.about p {
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-left: 270px;
+  margin-bottom: 20px;
+  text-align: justify; }
+
+#contact {
+  padding-top: 20px;
+  clear: both; }
+
+.contact {
+  height: 300px;
+  margin: 20px auto;
+  clear: both; }
+
+.contact-items {
+  width: 850px;
+  height: 200px;
+  margin: 0 auto; }
+
+.contact img {
+  width: 150px; }
+
+#mail {
+  text-align: center;
+  width: 200px; }
+
+#mail img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+#mail p {
+  width: 150px;
+  display: block; }
+
+#mail a {
+  color: white;
+  text-decoration: none; }
+
+.contact-item {
+  float: left;
+  margin: 20px 50px 40px 50px; }
+
+.contact-item:hover {
+  padding-bottom: 10px;
+  border-bottom: 3px solid white; }
+
 header {
   position: relative;
   height: 600px;
@@ -138,26 +203,6 @@ nav li:hover {
   text-align: center;
   outline: 2px solid white; }
 
-.technologies {
-  height: 250px;
-  width: 920px;
-  margin: 0 auto; }
-
-.tech-list img {
-  height: 150px;
-  width: 130px; }
-
-.tech-list li {
-  float: left;
-  text-align: center;
-  line-height: 1.5;
-  margin: 30px 50px 0 50px; }
-
-body {
-  background-color: black;
-  color: white;
-  font-family: sans-serif; }
-
 .project-title, .app-link a, .code-link a {
   text-decoration: none;
   color: white;
@@ -193,8 +238,31 @@ body {
   text-align: right;
   margin-right: 10px; }
 
-.hide-names {
-  display: none; }
+.app-desc {
+  margin: 20px 0; }
+
+#projects {
+  padding-top: 40px; }
+
+.technologies {
+  height: 250px;
+  width: 920px;
+  margin: 0 auto; }
+
+.tech-list img {
+  height: 150px;
+  width: 130px; }
+
+.tech-list li {
+  float: left;
+  text-align: center;
+  line-height: 1.5;
+  margin: 30px 50px 0 50px; }
+
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif; }
 
 .section-title {
   border: 3px solid white;
@@ -205,77 +273,6 @@ body {
   font-size: 30px;
   clear: both;
   font-family: 'Roboto Mono', monospace; }
-
-.about {
-  overflow: auto;
-  position: relative;
-  margin: 0 auto;
-  z-index: 3;
-  width: 70%;
-  min-height: 300px; }
-
-.me {
-  width: 250px;
-  opacity: .8;
-  border-radius: 5%;
-  border: 2px solid white;
-  float: left; }
-
-.about p {
-  line-height: 1.5;
-  margin-top: 10px;
-  margin-left: 270px;
-  margin-bottom: 20px;
-  text-align: justify; }
-
-.app-desc {
-  margin: 20px 0; }
-
-#projects {
-  padding-top: 40px; }
-
-#contact {
-  padding-top: 20px;
-  clear: both; }
-
-.contact {
-  height: 300px;
-  margin: 20px auto;
-  clear: both; }
-
-.contact-items {
-  width: 850px;
-  height: 200px;
-  margin: 0 auto; }
-
-.contact img {
-  width: 150px; }
-
-#mail {
-  text-align: center;
-  width: 200px; }
-
-#mail img {
-  display: block;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 20px; }
-
-#mail p {
-  width: 150px;
-  display: block; }
-
-#mail a {
-  color: white;
-  text-decoration: none; }
-
-.contact-item {
-  float: left;
-  margin: 20px 50px 40px 50px; }
-
-.contact-item:hover {
-  padding-bottom: 10px;
-  border-bottom: 3px solid white; }
 
 @media (max-width: 1300px) {
   .projects-list li {
@@ -294,19 +291,6 @@ body {
   .tech-list ol {
     margin-bottom: 30px;
     clear: both; } }
-
-@media (max-width: 460px) {
-  .technologies {
-    width: 230px; }
-  .nav-ol {
-    margin-left: 7px; }
-  .social-media img {
-    height: 15px;
-    padding-top: 2px; }
-  #mail-small {
-    padding-top: 4px;
-    width: 20px;
-    height: 12px; } }
 
 @media (max-width: 750px) {
   .name-and-title {
@@ -378,3 +362,16 @@ body {
     border-bottom: 0px solid white;
     border-left: 3px solid white;
     border-right: 3px solid white; } }
+
+@media (max-width: 460px) {
+  .technologies {
+    width: 230px; }
+  .nav-ol {
+    margin-left: 7px; }
+  .social-media img {
+    height: 15px;
+    padding-top: 2px; }
+  #mail-small {
+    padding-top: 4px;
+    width: 20px;
+    height: 12px; } }
