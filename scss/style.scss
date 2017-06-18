@@ -20,39 +20,6 @@
 	}
 }
 
-@media(max-width: 920px) {
-	.technologies {
-		width: 460px;
-	}
-	.tech-list li {
-		margin: 20px 50px;
-	}
-	.tech-list ol {
-		margin-bottom: 30px;
-		clear: both;
-	}
-}
-
-
-
-@media (max-width: 750px) {
-	.name-and-title {
-	  position: absolute;
-	  left: 10px;
-	  top: 250px;
-	  border: 4px solid white;
-	  padding: 10px;
-	}
-
-	nav li {
-	  font-size: 10px;
-	}
-
-	.nav-ol li {
-	  padding: 5px 0;
-	}
-}
-
 @media (max-width: 1000px) {
 	.me {
 		width: 100px;
@@ -65,19 +32,16 @@
 	}
 }
 
-@media (max-width: 650px) {
-	.projects-list li {
-		min-height: 460px;
+@media(max-width: 920px) {
+	.technologies {
+		width: 460px;
 	}
-	.app-link, .code-link {
-		margin-top: 420px;
-		font-size: 15px;
+	.tech-list li {
+		margin: 20px 50px;
 	}
-	.project-title {
-		font-size: 20px;
-	}
-	.built-with, .app-desc {
-		font-size: 15px;
+	.tech-list ol {
+		margin-bottom: 30px;
+		clear: both;
 	}
 }
 
@@ -103,9 +67,7 @@
 	#mail img {
 		padding-top: 20px;
 	}
-}
 
-@media (max-width: 850px) {
 	.contact-items {
 		width: 600px;
 	}
@@ -114,7 +76,38 @@
 	}
 }
 
+@media (max-width: 750px) {
+	.name-and-title {
+	  position: absolute;
+	  left: 10px;
+	  top: 250px;
+	  border: 4px solid white;
+	  padding: 10px;
+	}
+
+	nav li {
+	  font-size: 10px;
+	}
+
+	.nav-ol li {
+	  padding: 5px 0;
+	}
+}
+
 @media (max-width: 650px) {
+	.projects-list li {
+		min-height: 460px;
+	}
+	.app-link, .code-link {
+		margin-top: 420px;
+		font-size: 15px;
+	}
+	.project-title {
+		font-size: 20px;
+	}
+	.built-with, .app-desc {
+		font-size: 15px;
+	}
 	.contact-items {
 		width: 100%;
 	}
