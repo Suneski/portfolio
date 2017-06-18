@@ -1,0 +1,24 @@
+.about {
+  overflow: auto;
+  position: relative;
+  margin: 0 auto;
+  z-index: 3;
+	width: 70%;
+  min-height: 300px;
+}
+
+.me {
+	width: 250px;
+	opacity: .8;
+	border-radius: 5%;
+	border: 2px solid white;
+	float: left;
+}
+
+.about p {
+	line-height: 1.5;
+	margin-top: 10px;
+	margin-left: 270px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
