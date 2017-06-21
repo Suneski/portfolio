@@ -2,17 +2,37 @@
 	height: 250px;
 	width: 920px;
 	margin: 0 auto;
+	.tech-list {
+		img {
+			height: 150px;
+			width: 130px;
+		}
+		li {
+			float: left;
+			text-align: center;
+			line-height: 1.5;
+			margin: 30px 50px 0 50px;
+		}
+	}
 }
 
-
-.tech-list img {
-	height: 150px;
-	width: 130px;
+@media(max-width: 1000px) {
+	.technologies {
+		width: 460px;
+		.tech-list {
+			li {
+				margin: 20px 50px;
+			}
+			ol {
+				margin-bottom: 30px;
+				clear: both;
+			}
+		}
+	}
 }
 
-.tech-list li {
-	float: left;
-	text-align: center;
-	line-height: 1.5;
-	margin: 30px 50px 0 50px;
+@media(max-width: 460px) {
+	.technologies {
+		width: 230px;
+	}
 }

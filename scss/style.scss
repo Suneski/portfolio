@@ -22,18 +22,7 @@
 
 
 
-@media(max-width: 920px) {
-	.technologies {
-		width: 460px;
-	}
-	.tech-list li {
-		margin: 20px 50px;
-	}
-	.tech-list ol {
-		margin-bottom: 30px;
-		clear: both;
-	}
-}
+
 
 @media (max-width: 850px) {
 	.contact {
@@ -101,11 +90,5 @@
 		border-bottom: 0px solid white;
 		border-left: 3px solid white;
 		border-right: 3px solid white;
-	}
-}
-
-@media(max-width: 460px) {
-	.technologies {
-		width: 230px;
 	}
 }

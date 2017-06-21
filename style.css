@@ -127,10 +127,11 @@ body {
   border: 3px solid white;
   width: 250px;
   text-align: center;
-  margin: 0 auto 20px auto;
+  margin: 20px auto;
   padding: 5px 0;
   font-size: 30px;
   clear: both;
+  overflow: auto;
   font-family: 'Roboto Mono', monospace; }
 
 header {
@@ -279,16 +280,27 @@ nav {
   height: 250px;
   width: 920px;
   margin: 0 auto; }
+  .technologies .tech-list img {
+    height: 150px;
+    width: 130px; }
+  .technologies .tech-list li {
+    float: left;
+    text-align: center;
+    line-height: 1.5;
+    margin: 30px 50px 0 50px; }
 
-.tech-list img {
-  height: 150px;
-  width: 130px; }
+@media (max-width: 1000px) {
+  .technologies {
+    width: 460px; }
+    .technologies .tech-list li {
+      margin: 20px 50px; }
+    .technologies .tech-list ol {
+      margin-bottom: 30px;
+      clear: both; } }
 
-.tech-list li {
-  float: left;
-  text-align: center;
-  line-height: 1.5;
-  margin: 30px 50px 0 50px; }
+@media (max-width: 460px) {
+  .technologies {
+    width: 230px; } }
 
 @media (max-width: 1300px) {
   .projects-list li {
@@ -298,15 +310,6 @@ nav {
     margin: 2% 1%;
     text-align: center;
     outline: 1px solid white; } }
-
-@media (max-width: 920px) {
-  .technologies {
-    width: 460px; }
-  .tech-list li {
-    margin: 20px 50px; }
-  .tech-list ol {
-    margin-bottom: 30px;
-    clear: both; } }
 
 @media (max-width: 850px) {
   .contact {
@@ -351,7 +354,3 @@ nav {
     border-bottom: 0px solid white;
     border-left: 3px solid white;
     border-right: 3px solid white; } }
-
-@media (max-width: 460px) {
-  .technologies {
-    width: 230px; } }
