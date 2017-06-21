@@ -10,17 +10,69 @@
 
 
 @media (max-width: 1300px) {
-	.projects-list li {
-		width: 98%;
-		float: left;
-		height: 400px;
-		margin: 2% 1%;
-		text-align: center;
-		outline: 1px solid white;
+	.projects {
+		.projects-list li {
+			width: 98%;
+			float: left;
+			height: 440px;
+			margin: 2% 1%;
+			text-align: center;
+			outline: 1px solid white;
+		}
+		.app-link, .code-link {
+			margin-top: 380px;
+		}
+	}
+}
+
+@media (max-width: 750px) {
+	.projects {
+		.projects-list li {
+			min-height: 480px;
+		}
+		.app-link, .code-link {
+			margin-top: 440px;
+			font-size: 15px;
+		}
+		.project-title {
+			font-size: 20px;
+		}
+		.built-with, .app-desc {
+			font-size: 15px;
+		}
 	}
 }
 
 
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+	.contact-items {
+		width: 100%;
+	}
+	.contact-items img {
+		width: 50px;
+	}
+	.contact-item {
+		width: 50px;
+		float: none;
+		margin: 20px auto;
+	}
+	#linkedin-big {
+		margin: 0 auto;
+	}
+	.contact-item:hover {
+		padding: 0 30px;
+		border-bottom: 0px solid white;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+	}
+}
 
 
 
@@ -52,43 +104,5 @@
 	}
 	#linkedin-big {
 		margin-left: 50px;
-	}
-}
-
-
-
-@media (max-width: 650px) {
-	.projects-list li {
-		min-height: 460px;
-	}
-	.app-link, .code-link {
-		margin-top: 420px;
-		font-size: 15px;
-	}
-	.project-title {
-		font-size: 20px;
-	}
-	.built-with, .app-desc {
-		font-size: 15px;
-	}
-	.contact-items {
-		width: 100%;
-	}
-	.contact-items img {
-		width: 50px;
-	}
-	.contact-item {
-		width: 50px;
-		float: none;
-		margin: 20px auto;
-	}
-	#linkedin-big {
-		margin: 0 auto;
-	}
-	.contact-item:hover {
-		padding: 0 30px;
-		border-bottom: 0px solid white;
-		border-left: 3px solid white;
-		border-right: 3px solid white;
 	}
 }

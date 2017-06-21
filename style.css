@@ -216,65 +216,50 @@ nav {
     height: 12px; } }
 
 .projects {
-  clear: both; }
-
-.projects-list {
-  width: 80%;
-  margin: 0 auto; }
-
-.projects li img {
-  width: 200px;
-  height: 200px; }
-
-.projects-list li {
-  width: 47%;
-  float: left;
-  min-height: 480px;
-  margin: 1% 1% 2% 1%;
-  padding: 5px;
-  text-align: center;
-  outline: 2px solid white; }
-
-.project-title, .app-link a, .code-link a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Roboto Mono', monospace; }
-
-.project-title:visited, .app-link a:visited, .code-link a:visited {
-  text-decoration: none;
-  color: white; }
-
-.project-title:hover, .app-link a:hover, .code-link a:hover {
-  color: grey; }
-
-.project-title {
-  font-size: 30px; }
-
-.built-with, .app-desc {
-  font-size: 20px; }
-
-.project-title img {
-  margin: 10px 0; }
-
-.app-link, .code-link {
-  margin-top: 420px;
-  font-size: 20px; }
-
-.app-link {
-  float: left;
-  text-align: left;
-  margin-left: 10px; }
-
-.code-link {
-  float: right;
-  text-align: right;
-  margin-right: 10px; }
-
-.app-desc {
-  margin: 20px 0; }
-
-#projects {
+  clear: both;
   padding-top: 40px; }
+  .projects li img {
+    width: 200px;
+    height: 200px; }
+  .projects .projects-list {
+    width: 80%;
+    margin: 0 auto; }
+    .projects .projects-list li {
+      width: 47%;
+      float: left;
+      height: 540px;
+      margin: 1% 1% 2% 1%;
+      padding: 5px;
+      text-align: center;
+      outline: 2px solid white; }
+  .projects .project-title, .projects .app-link a, .projects .code-link a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace; }
+  .projects .project-title:visited, .projects .app-link a:visited, .projects .code-link a:visited {
+    text-decoration: none;
+    color: white; }
+  .projects .project-title:hover, .projects .app-link a:hover, .projects .code-link a:hover {
+    color: grey; }
+  .projects .project-title {
+    font-size: 30px; }
+    .projects .project-title img {
+      margin: 10px 0; }
+  .projects .built-with, .projects .app-desc {
+    font-size: 20px; }
+  .projects .app-link, .projects .code-link {
+    margin-top: 475px;
+    font-size: 20px; }
+  .projects .app-link {
+    float: left;
+    text-align: left;
+    margin-left: 10px; }
+  .projects .code-link {
+    float: right;
+    text-align: right;
+    margin-right: 10px; }
+  .projects .app-desc {
+    margin: 20px 0; }
 
 .technologies {
   height: 250px;
@@ -303,13 +288,43 @@ nav {
     width: 230px; } }
 
 @media (max-width: 1300px) {
-  .projects-list li {
+  .projects .projects-list li {
     width: 98%;
     float: left;
-    height: 400px;
+    height: 440px;
     margin: 2% 1%;
     text-align: center;
-    outline: 1px solid white; } }
+    outline: 1px solid white; }
+  .projects .app-link, .projects .code-link {
+    margin-top: 380px; } }
+
+@media (max-width: 750px) {
+  .projects .projects-list li {
+    min-height: 480px; }
+  .projects .app-link, .projects .code-link {
+    margin-top: 440px;
+    font-size: 15px; }
+  .projects .project-title {
+    font-size: 20px; }
+  .projects .built-with, .projects .app-desc {
+    font-size: 15px; } }
+
+@media (max-width: 650px) {
+  .contact-items {
+    width: 100%; }
+  .contact-items img {
+    width: 50px; }
+  .contact-item {
+    width: 50px;
+    float: none;
+    margin: 20px auto; }
+  #linkedin-big {
+    margin: 0 auto; }
+  .contact-item:hover {
+    padding: 0 30px;
+    border-bottom: 0px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white; } }
 
 @media (max-width: 850px) {
   .contact {
@@ -328,29 +343,3 @@ nav {
     width: 600px; }
   #linkedin-big {
     margin-left: 50px; } }
-
-@media (max-width: 650px) {
-  .projects-list li {
-    min-height: 460px; }
-  .app-link, .code-link {
-    margin-top: 420px;
-    font-size: 15px; }
-  .project-title {
-    font-size: 20px; }
-  .built-with, .app-desc {
-    font-size: 15px; }
-  .contact-items {
-    width: 100%; }
-  .contact-items img {
-    width: 50px; }
-  .contact-item {
-    width: 50px;
-    float: none;
-    margin: 20px auto; }
-  #linkedin-big {
-    margin: 0 auto; }
-  .contact-item:hover {
-    padding: 0 30px;
-    border-bottom: 0px solid white;
-    border-left: 3px solid white;
-    border-right: 3px solid white; } }
