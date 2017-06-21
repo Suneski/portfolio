@@ -260,6 +260,29 @@ nav {
   .projects .app-desc {
     margin: 20px 0; }
 
+@media (max-width: 1300px) {
+  .projects .projects-list {
+    width: 95%; }
+    .projects .projects-list li {
+      width: 95%;
+      float: none;
+      height: 440px;
+      text-align: center;
+      outline: 1px solid white; }
+    .projects .projects-list .app-link, .projects .projects-list .code-link {
+      margin-top: 380px; } }
+
+@media (max-width: 750px) {
+  .projects .projects-list li {
+    min-height: 440px; }
+  .projects .projects-list .app-link, .projects .projects-list .code-link {
+    margin-top: 400px;
+    font-size: 15px; }
+  .projects .project-title {
+    font-size: 20px; }
+  .projects .built-with, .projects .app-desc {
+    font-size: 15px; } }
+
 .technologies {
   height: 250px;
   width: 920px;
