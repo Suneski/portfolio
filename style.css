@@ -163,10 +163,9 @@ table {
     width: 90px;
     float: none;
     margin: 20px auto; }
-  #linkedin-big {
-    margin: 0 auto; }
-  #github-big {
-    margin: 0 auto 20px auto; }
+  #github-big, #linkedin-big, #resume-big {
+    margin: 0 auto 20px auto;
+    padding: 0 80px; }
   .contact-item:hover {
     padding: 0 30px;
     border-bottom: 0px solid white;

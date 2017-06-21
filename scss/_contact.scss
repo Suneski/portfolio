@@ -138,11 +138,9 @@
 		float: none;
 		margin: 20px auto;
 	}
-	#linkedin-big {
-		margin: 0 auto;
-	}
-	#github-big {
+	#github-big, #linkedin-big, #resume-big {
 		margin: 0 auto 20px auto;
+		padding: 0 80px;
 	}
 	.contact-item:hover {
 		padding: 0 30px;
