@@ -125,6 +125,7 @@ body {
   padding: 5px 0;
   font-size: 30px;
   clear: both;
+  overflow: auto;
   font-family: 'Roboto Mono', monospace; }
 
 header {
@@ -299,6 +300,7 @@ nav {
 
 @media (max-width: 1000px) {
   .technologies {
+    height: 460px;
     width: 460px; }
     .technologies .tech-list li {
       margin: 20px 50px; }
@@ -308,6 +310,7 @@ nav {
 
 @media (max-width: 460px) {
   .technologies {
+    height: 900px;
     width: 230px; } }
 
 @media (max-width: 850px) {
