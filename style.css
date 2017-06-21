@@ -216,7 +216,6 @@ nav {
     height: 12px; } }
 
 .projects {
-  clear: both;
   padding-top: 40px; }
   .projects li img {
     width: 200px;
@@ -288,21 +287,22 @@ nav {
     width: 230px; } }
 
 @media (max-width: 1300px) {
-  .projects .projects-list li {
-    width: 98%;
-    float: left;
-    height: 440px;
-    margin: 2% 1%;
-    text-align: center;
-    outline: 1px solid white; }
-  .projects .app-link, .projects .code-link {
-    margin-top: 380px; } }
+  .projects .projects-list {
+    width: 95%; }
+    .projects .projects-list li {
+      width: 95%;
+      float: none;
+      height: 440px;
+      text-align: center;
+      outline: 1px solid white; }
+    .projects .projects-list .app-link, .projects .projects-list .code-link {
+      margin-top: 380px; } }
 
 @media (max-width: 750px) {
   .projects .projects-list li {
-    min-height: 480px; }
-  .projects .app-link, .projects .code-link {
-    margin-top: 440px;
+    min-height: 440px; }
+  .projects .projects-list .app-link, .projects .projects-list .code-link {
+    margin-top: 400px;
     font-size: 15px; }
   .projects .project-title {
     font-size: 20px; }

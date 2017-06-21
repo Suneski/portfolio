@@ -11,28 +11,34 @@
 
 @media (max-width: 1300px) {
 	.projects {
-		.projects-list li {
-			width: 98%;
-			float: left;
-			height: 440px;
-			margin: 2% 1%;
-			text-align: center;
-			outline: 1px solid white;
+		.projects-list {
+			width: 95%;
+			li {
+				width: 95%;
+				float: none;
+				height: 440px;
+				text-align: center;
+				outline: 1px solid white;
+			}
+			.app-link, .code-link {
+				margin-top: 380px;
+			}
 		}
-		.app-link, .code-link {
-			margin-top: 380px;
-		}
+
+
 	}
 }
 
 @media (max-width: 750px) {
 	.projects {
-		.projects-list li {
-			min-height: 480px;
-		}
-		.app-link, .code-link {
-			margin-top: 440px;
-			font-size: 15px;
+		.projects-list {
+			li {
+				min-height: 440px;
+			}
+			.app-link, .code-link {
+				margin-top: 400px;
+				font-size: 15px;
+			}
 		}
 		.project-title {
 			font-size: 20px;
