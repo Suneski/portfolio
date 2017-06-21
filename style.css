@@ -53,20 +53,27 @@ table {
   z-index: 3;
   width: 70%;
   min-height: 300px; }
+  .about .me {
+    width: 250px;
+    opacity: .8;
+    border-radius: 5%;
+    border: 2px solid white;
+    float: left; }
+  .about p {
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    text-align: justify; }
 
-.me {
-  width: 250px;
-  opacity: .8;
-  border-radius: 5%;
-  border: 2px solid white;
-  float: left; }
-
-.about p {
-  line-height: 1.5;
-  margin-top: 10px;
-  margin-left: 270px;
-  margin-bottom: 20px;
-  text-align: justify; }
+@media (max-width: 1000px) {
+  .about .me {
+    width: 100px;
+    display: block;
+    text-align: center; }
+  .about p {
+    margin-left: 110px;
+    text-align: left; } }
 
 #contact {
   padding-top: 20px;
@@ -292,15 +299,6 @@ nav {
     text-align: center;
     outline: 1px solid white; } }
 
-@media (max-width: 1000px) {
-  .me {
-    width: 100px;
-    display: block;
-    text-align: center; }
-  .about p {
-    margin-left: 110px;
-    text-align: left; } }
-
 @media (max-width: 920px) {
   .technologies {
     width: 460px; }
@@ -327,14 +325,6 @@ nav {
     width: 600px; }
   #linkedin-big {
     margin-left: 50px; } }
-
-@media (max-width: 750px) {
-  .name-and-title {
-    position: absolute;
-    left: 10px;
-    top: 250px;
-    border: 4px solid white;
-    padding: 10px; } }
 
 @media (max-width: 650px) {
   .projects-list li {
