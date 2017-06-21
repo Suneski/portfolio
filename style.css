@@ -79,28 +79,32 @@ table {
   clear: both; }
 
 .contact-items {
-  width: 850px;
+  width: 1050px;
   height: 200px;
   margin: 0 auto; }
 
 .contact img {
   width: 150px; }
 
+#mail, #resume-big, #github-big, #linkedin-big {
+  text-align: center; }
+
 #mail {
-  text-align: center;
   width: 200px; }
 
 #mail img {
   display: block;
   margin: 0 auto;
   padding-top: 30px;
-  padding-bottom: 20px; }
+  padding-bottom: 42px; }
 
 #mail p {
-  width: 150px;
-  display: block; }
+  width: 150px; }
 
-#mail a {
+#resume-big {
+  text-align: center; }
+
+.contact-item a {
   color: white;
   text-decoration: none; }
 
@@ -111,6 +115,63 @@ table {
 .contact-item:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid white; }
+
+#resume-big img {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  padding-top: 0px;
+  padding-bottom: 20px; }
+
+#github-big img {
+  padding-bottom: 17px; }
+
+#linkedin-big img {
+  padding-bottom: 16px; }
+
+@media (max-width: 1000px) {
+  .contact {
+    height: 300px;
+    margin: 0 auto; }
+  .contact-items {
+    width: 700px; }
+  .contact img {
+    width: 100px; }
+  .contact-item {
+    float: left;
+    margin: 20px 20px 40px 20px; }
+  #mail img {
+    padding-top: 20px; }
+  #linkedin-big, #github-big {
+    margin-left: 30px; }
+  #resume-big img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    padding-bottom: 20px; }
+  #github-big img {
+    padding-bottom: 17px; }
+  #linkedin-big img {
+    padding-bottom: 16px; } }
+
+@media (max-width: 650px) {
+  .contact-items {
+    width: 100%; }
+  .contact-items img {
+    width: 90px; }
+  .contact-item {
+    width: 90px;
+    float: none;
+    margin: 20px auto; }
+  #linkedin-big {
+    margin: 0 auto; }
+  #github-big {
+    margin: 0 auto 20px auto; }
+  .contact-item:hover {
+    padding: 0 30px;
+    border-bottom: 0px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white; } }
 
 body {
   background-color: black;
@@ -304,38 +365,3 @@ nav {
   .technologies {
     height: 900px;
     width: 230px; } }
-
-@media (max-width: 850px) {
-  .contact {
-    height: 300px;
-    margin: 0 auto; }
-  .contact-items {
-    width: 600px; }
-  .contact img {
-    width: 100px; }
-  .contact-item {
-    float: left;
-    margin: 20px 20px 40px 20px; }
-  #mail img {
-    padding-top: 20px; }
-  .contact-items {
-    width: 600px; }
-  #linkedin-big {
-    margin-left: 50px; } }
-
-@media (max-width: 650px) {
-  .contact-items {
-    width: 100%; }
-  .contact-items img {
-    width: 90px; }
-  .contact-item {
-    width: 90px;
-    float: none;
-    margin: 20px auto; }
-  #linkedin-big {
-    margin: 0 auto; }
-  .contact-item:hover {
-    padding: 0 30px;
-    border-bottom: 0px solid white;
-    border-left: 3px solid white;
-    border-right: 3px solid white; } }

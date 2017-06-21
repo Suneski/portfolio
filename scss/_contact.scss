@@ -6,7 +6,7 @@
 }
 
 .contact-items {
-	width: 850px;
+	width: 1050px;
 	height: 200px;
 	margin: 0 auto;
 }
@@ -15,8 +15,11 @@
 	width: 150px;
 }
 
-#mail {
+#mail, #resume-big, #github-big, #linkedin-big {
 	text-align: center;
+}
+
+#mail {
 	width: 200px;
 }
 
@@ -24,15 +27,19 @@
 	display: block;
 	margin: 0 auto;
 	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 42px;
 }
 
 #mail p {
 	width: 150px;
-	display: block;
 }
 
-#mail a {
+#resume-big {
+	text-align: center;
+}
+
+
+.contact-item a {
 	color: white;
 	text-decoration: none;
 }
@@ -46,4 +53,101 @@
 .contact-item:hover {
 	padding-bottom: 10px;
 	border-bottom: 3px solid white;
+}
+
+
+
+
+
+
+
+#resume-big img {
+	display: block;
+	margin: 0 auto;
+	width: 120px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+#github-big img {
+	padding-bottom: 17px;
+}
+
+#linkedin-big img {
+	padding-bottom: 16px;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+	.contact {
+		height: 300px;
+		margin: 0 auto;
+	}
+
+	.contact-items {
+		width: 700px;
+	}
+
+	.contact img {
+		width: 100px;
+	}
+
+	.contact-item {
+		float: left;
+		margin: 20px 20px 40px 20px;
+	}
+
+	#mail img {
+		padding-top: 20px;
+	}
+
+	#linkedin-big, #github-big {
+		margin-left: 30px;
+	}
+
+
+	#resume-big img {
+		display: block;
+		margin: 0 auto;
+		width: 80px;
+		// padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	#github-big img {
+		padding-bottom: 17px;
+	}
+
+	#linkedin-big img {
+		padding-bottom: 16px;
+	}
+}
+
+@media (max-width: 650px) {
+	.contact-items {
+		width: 100%;
+	}
+	.contact-items img {
+		width: 90px;
+	}
+	.contact-item {
+		width: 90px;
+		float: none;
+		margin: 20px auto;
+	}
+	#linkedin-big {
+		margin: 0 auto;
+	}
+	#github-big {
+		margin: 0 auto 20px auto;
+	}
+	.contact-item:hover {
+		padding: 0 30px;
+		border-bottom: 0px solid white;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+	}
 }
