@@ -51,8 +51,7 @@ table {
   position: relative;
   margin: 0 auto;
   z-index: 3;
-  width: 70%;
-  min-height: 300px; }
+  width: 70%; }
   .about .me {
     width: 250px;
     opacity: .8;
@@ -75,13 +74,8 @@ table {
     margin-left: 110px;
     text-align: left; } }
 
-#contact {
-  padding-top: 20px;
-  clear: both; }
-
 .contact {
   height: 300px;
-  margin: 20px auto;
   clear: both; }
 
 .contact-items {
@@ -131,7 +125,6 @@ body {
   padding: 5px 0;
   font-size: 30px;
   clear: both;
-  overflow: auto;
   font-family: 'Roboto Mono', monospace; }
 
 header {
@@ -215,50 +208,58 @@ nav {
     width: 18px;
     height: 12px; } }
 
-.projects {
-  padding-top: 40px; }
-  .projects li img {
-    width: 200px;
-    height: 200px; }
-  .projects .projects-list {
-    width: 80%;
-    margin: 0 auto; }
-    .projects .projects-list li {
-      width: 47%;
-      float: left;
-      height: 540px;
-      margin: 1% 1% 2% 1%;
-      padding: 5px;
-      text-align: center;
-      outline: 2px solid white; }
-  .projects .project-title, .projects .app-link a, .projects .code-link a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto Mono', monospace; }
-  .projects .project-title:visited, .projects .app-link a:visited, .projects .code-link a:visited {
-    text-decoration: none;
-    color: white; }
-  .projects .project-title:hover, .projects .app-link a:hover, .projects .code-link a:hover {
-    color: grey; }
-  .projects .project-title {
-    font-size: 30px; }
-    .projects .project-title img {
-      margin: 10px 0; }
-  .projects .built-with, .projects .app-desc {
-    font-size: 20px; }
-  .projects .app-link, .projects .code-link {
-    margin-top: 475px;
-    font-size: 20px; }
-  .projects .app-link {
+.projects li img {
+  width: 200px;
+  height: 200px; }
+
+.projects .projects-list {
+  width: 80%;
+  margin: 0 auto; }
+  .projects .projects-list li {
+    width: 47%;
     float: left;
-    text-align: left;
-    margin-left: 10px; }
-  .projects .code-link {
-    float: right;
-    text-align: right;
-    margin-right: 10px; }
-  .projects .app-desc {
-    margin: 20px 0; }
+    height: 540px;
+    margin: 1% 1% 2% 1%;
+    padding: 5px;
+    text-align: center;
+    outline: 2px solid white; }
+
+.projects .project-title, .projects .app-link a, .projects .code-link a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto Mono', monospace; }
+
+.projects .project-title:visited, .projects .app-link a:visited, .projects .code-link a:visited {
+  text-decoration: none;
+  color: white; }
+
+.projects .project-title:hover, .projects .app-link a:hover, .projects .code-link a:hover {
+  color: grey; }
+
+.projects .project-title {
+  font-size: 30px; }
+  .projects .project-title img {
+    margin: 10px 0; }
+
+.projects .built-with, .projects .app-desc {
+  font-size: 20px; }
+
+.projects .app-link, .projects .code-link {
+  margin-top: 475px;
+  font-size: 20px; }
+
+.projects .app-link {
+  float: left;
+  text-align: left;
+  margin-left: 10px; }
+
+.projects .code-link {
+  float: right;
+  text-align: right;
+  margin-right: 10px; }
+
+.projects .app-desc {
+  margin: 20px 0; }
 
 @media (max-width: 1300px) {
   .projects .projects-list {
