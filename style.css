@@ -309,46 +309,6 @@ nav {
   .technologies {
     width: 230px; } }
 
-@media (max-width: 1300px) {
-  .projects .projects-list {
-    width: 95%; }
-    .projects .projects-list li {
-      width: 95%;
-      float: none;
-      height: 440px;
-      text-align: center;
-      outline: 1px solid white; }
-    .projects .projects-list .app-link, .projects .projects-list .code-link {
-      margin-top: 380px; } }
-
-@media (max-width: 750px) {
-  .projects .projects-list li {
-    min-height: 440px; }
-  .projects .projects-list .app-link, .projects .projects-list .code-link {
-    margin-top: 400px;
-    font-size: 15px; }
-  .projects .project-title {
-    font-size: 20px; }
-  .projects .built-with, .projects .app-desc {
-    font-size: 15px; } }
-
-@media (max-width: 650px) {
-  .contact-items {
-    width: 100%; }
-  .contact-items img {
-    width: 50px; }
-  .contact-item {
-    width: 50px;
-    float: none;
-    margin: 20px auto; }
-  #linkedin-big {
-    margin: 0 auto; }
-  .contact-item:hover {
-    padding: 0 30px;
-    border-bottom: 0px solid white;
-    border-left: 3px solid white;
-    border-right: 3px solid white; } }
-
 @media (max-width: 850px) {
   .contact {
     height: 300px;
@@ -366,3 +326,20 @@ nav {
     width: 600px; }
   #linkedin-big {
     margin-left: 50px; } }
+
+@media (max-width: 650px) {
+  .contact-items {
+    width: 100%; }
+  .contact-items img {
+    width: 90px; }
+  .contact-item {
+    width: 90px;
+    float: none;
+    margin: 20px auto; }
+  #linkedin-big {
+    margin: 0 auto; }
+  .contact-item:hover {
+    padding: 0 30px;
+    border-bottom: 0px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white; } }
