@@ -316,9 +316,10 @@ nav {
 
 @media (max-width: 1300px) {
   .projects .projects-list {
-    width: 95%; }
+    width: 95%;
+    margin: 0 auto; }
     .projects .projects-list li {
-      width: 95%;
+      width: 96%;
       float: none;
       height: 440px;
       text-align: center;
