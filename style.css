@@ -270,7 +270,6 @@ nav {
     height: 12px; } }
 
 .projects {
-  text-align: center;
   min-height: 600px; }
   .projects li img {
     width: 200px;
@@ -284,6 +283,7 @@ nav {
       height: 540px;
       margin: 1% 1% 2% 1%;
       padding: 5px;
+      text-align: center;
       outline: 2px solid white; }
   .projects .project-title, .projects .app-link a, .projects .code-link a {
     text-decoration: none;
