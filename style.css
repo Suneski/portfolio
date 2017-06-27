@@ -206,13 +206,17 @@ header {
     padding: 10px;
     text-shadow: 2px 2px 10px black; }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   header .name-and-title {
     position: absolute;
-    left: 10px;
+    left: 10%;
     top: 250px;
     border: 4px solid white;
     padding: 10px; } }
+
+@media (max-width: 500px) {
+  header .name-and-title {
+    left: 5px; } }
 
 nav {
   position: fixed;
@@ -256,7 +260,7 @@ nav {
 @media (max-width: 750px) {
   nav li {
     font-size: 10px;
-    margin-right: 10px; }
+    margin-right: 8px; }
   nav .nav-ol {
     margin-left: 7px; }
     nav .nav-ol li {
@@ -301,7 +305,6 @@ nav {
   .projects .built-with, .projects .app-desc {
     font-size: 20px; }
   .projects .app-link, .projects .code-link {
-    margin-top: 475px;
     font-size: 20px; }
   .projects .app-link {
     float: left;
@@ -314,6 +317,10 @@ nav {
   .projects .app-desc {
     margin: 20px 0; }
 
+.avoid-float-damage {
+  width: 100%;
+  height: 500px; }
+
 @media (max-width: 1300px) {
   .projects .projects-list {
     width: 95%;
@@ -324,19 +331,20 @@ nav {
       height: 440px;
       text-align: center;
       outline: 1px solid white; }
-    .projects .projects-list .app-link, .projects .projects-list .code-link {
-      margin-top: 380px; } }
+  .projects .avoid-float-damage {
+    height: 410px; } }
 
 @media (max-width: 750px) {
   .projects .projects-list li {
     min-height: 440px; }
   .projects .projects-list .app-link, .projects .projects-list .code-link {
-    margin-top: 400px;
     font-size: 15px; }
   .projects .project-title {
     font-size: 20px; }
   .projects .built-with, .projects .app-desc {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .projects .avoid-float-damage {
+    height: 420px; } }
 
 .technologies {
   height: 250px;
