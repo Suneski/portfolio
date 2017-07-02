@@ -129,7 +129,7 @@ table {
 #linkedin-big img {
   padding-bottom: 16px; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1070px) {
   .contact {
     height: 300px;
     margin: 0 auto; }
@@ -155,7 +155,7 @@ table {
   #linkedin-big img {
     padding-bottom: 16px; } }
 
-@media (max-width: 650px) {
+@media (max-width: 715px) {
   .contact-items {
     width: 100%; }
   .contact-items img {
