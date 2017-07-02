@@ -50,16 +50,16 @@ nav {
  }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 670px) {
 	nav {
     li {
-  	  font-size: 8px;
+  	  font-size: 12px;
       margin-right: 8px;
   	}
   	.nav-ol {
       margin-left: 7px;
       li {
-    	  padding: 7px 0;
+    	  padding: 4px 0;
     	}
     }
     .social-media {
@@ -72,6 +72,19 @@ nav {
         width: 18px;
         height: 12px;
       }
+    }
+  }
+}
+
+@media (max-width: 470px) {
+	nav {
+    li {
+  	  font-size: 9px;
+  	}
+  	.nav-ol {
+      li {
+    	  padding: 6px 0;
+    	}
     }
   }
 }
