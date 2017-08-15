@@ -25,13 +25,14 @@
 			border: 2px solid white;
 		}
 	}
-	.project-title, .app-link a, .code-link a {
+	.project-name, .app-link a, .code-link a {
 		text-decoration: none;
 		color: white;
 		font-family: 'Roboto Mono', monospace;
+		transition: color 0.5s;
 	}
 	.project-name:visited, .app-link a:visited, .code-link a:visited {
-		text-decoration: none;
+
 		color: white;
 	}
 	.project-name:hover, .app-link a:hover, .code-link a:hover {
@@ -39,6 +40,7 @@
 	}
 	.project-title {
 		font-size: 30px;
+		text-decoration: none;
 		img {
 			margin: 10px 0;
 		}

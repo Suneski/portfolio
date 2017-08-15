@@ -336,17 +336,18 @@ nav {
       padding: 5px;
       text-align: center;
       border: 2px solid white; }
-  .projects .project-title, .projects .app-link a, .projects .code-link a {
+  .projects .project-name, .projects .app-link a, .projects .code-link a {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto Mono', monospace; }
+    font-family: 'Roboto Mono', monospace;
+    transition: color 0.5s; }
   .projects .project-name:visited, .projects .app-link a:visited, .projects .code-link a:visited {
-    text-decoration: none;
     color: white; }
   .projects .project-name:hover, .projects .app-link a:hover, .projects .code-link a:hover {
     color: grey; }
   .projects .project-title {
-    font-size: 30px; }
+    font-size: 30px;
+    text-decoration: none; }
     .projects .project-title img {
       margin: 10px 0; }
   .projects .built-with, .projects .app-desc {
