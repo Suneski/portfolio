@@ -329,12 +329,13 @@ nav {
       .projects .projects-list li img {
         width: 200px;
         height: 200px;
-        border-color: 1px solid black;
         transition: width 0.5s, height 0.5s, outline 0.5s, border-radius 0.5s; }
       .projects .projects-list li img:hover {
         width: 220px;
         height: 220px;
         outline: 3px solid rgba(255, 255, 255, 0.2); }
+    .projects .projects-list li:hover {
+      background-color: rgba(255, 255, 255, 0.05); }
   .projects .project-name, .projects .app-link a, .projects .code-link a {
     text-decoration: none;
     color: white;
