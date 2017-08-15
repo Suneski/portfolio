@@ -333,10 +333,10 @@ nav {
     text-decoration: none;
     color: white;
     font-family: 'Roboto Mono', monospace; }
-  .projects .project-title:visited, .projects .app-link a:visited, .projects .code-link a:visited {
+  .projects .project-name:visited, .projects .app-link a:visited, .projects .code-link a:visited {
     text-decoration: none;
     color: white; }
-  .projects .project-title:hover, .projects .app-link a:hover, .projects .code-link a:hover {
+  .projects .project-name:hover, .projects .app-link a:hover, .projects .code-link a:hover {
     color: grey; }
   .projects .project-title {
     font-size: 30px; }
