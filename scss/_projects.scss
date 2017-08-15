@@ -1,28 +1,28 @@
 .projects {
 	min-height: 600px;
-	li img {
-	  width: 200px;
-	  height: 200px;
-		border-color: 1px solid black;
-		transition: width 0.5s, height 0.5s, outline 0.5s, border-radius 0.5s;
-	}
-	li img:hover {
-		width: 220px;
-		height: 220px;
-		border: 3px solid rgba(255, 255, 255, 0.2);
-		border-radius: 10px;
-	}
+
 	.projects-list {
 		width: 80%;
 		margin: 0 auto;
 		li {
-			width: 47%;
+			width: 46.9%;
 			float: left;
 			height: 540px;
 			margin: 1% 1% 2% 1%;
 			padding: 5px;
 			text-align: center;
-			border: 2px solid white;
+			outline: 2px solid white;
+			img {
+				width: 200px;
+				height: 200px;
+				border-color: 1px solid black;
+				transition: width 0.5s, height 0.5s, outline 0.5s, border-radius 0.5s;
+			}
+			img:hover {
+				width: 220px;
+				height: 220px;
+				outline: 3px solid rgba(255, 255, 255, 0.2);
+			}
 		}
 	}
 	.project-name, .app-link a, .code-link a {
