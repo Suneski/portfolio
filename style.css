@@ -342,17 +342,19 @@ nav {
         width: 220px;
         height: 220px;
         outline: 3px solid rgba(255, 255, 255, 0.2); }
-    .projects .projects-list li:hover {
-      background-color: rgba(255, 255, 255, 0.05); }
   .projects .project-name, .projects .app-link a, .projects .code-link a {
     text-decoration: none;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    transition: color 0.5s; }
+    transition: color 0.5s, font-size 0.5s; }
   .projects .project-name:visited, .projects .app-link a:visited, .projects .code-link a:visited {
     color: white; }
   .projects .project-name:hover, .projects .app-link a:hover, .projects .code-link a:hover {
     color: grey; }
+  .projects .project-name:hover {
+    font-size: 32px; }
+  .projects .app-link a:hover, .projects .code-link a:hover {
+    font-size: 22px; }
   .projects .project-title {
     font-size: 30px;
     text-decoration: none; }
@@ -407,8 +409,12 @@ nav {
     min-height: 440px; }
   .projects .projects-list .app-link, .projects .projects-list .code-link {
     font-size: 15px; }
-  .projects .project-title {
+  .projects .projects-list .app-link a:hover, .projects .projects-list .code-link a:hover {
+    font-size: 17px; }
+  .projects .project-name {
     font-size: 20px; }
+  .projects .project-name:hover {
+    font-size: 22px; }
   .projects .built-with, .projects .app-desc {
     font-size: 15px; }
   .projects .avoid-float-damage {

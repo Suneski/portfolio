@@ -23,15 +23,12 @@
 				outline: 3px solid rgba(255, 255, 255, 0.2);
 			}
 		}
-		li:hover {
-			background-color: rgba(255, 255, 255, 0.05);
-		}
 	}
 	.project-name, .app-link a, .code-link a {
 		text-decoration: none;
 		color: white;
 		font-family: 'Roboto Mono', monospace;
-		transition: color 0.5s;
+		transition: color 0.5s, font-size 0.5s;
 	}
 	.project-name:visited, .app-link a:visited, .code-link a:visited {
 
@@ -39,6 +36,12 @@
 	}
 	.project-name:hover, .app-link a:hover, .code-link a:hover {
 		color: grey;
+	}
+	.project-name:hover {
+		font-size: 32px;
+	}
+	.app-link a:hover, .code-link a:hover {
+		font-size: 22px;
 	}
 	.project-title {
 		font-size: 30px;
@@ -124,9 +127,15 @@
 			.app-link, .code-link {
 				font-size: 15px;
 			}
+			.app-link a:hover, .code-link a:hover {
+				font-size: 17px;
+			}
 		}
-		.project-title {
+		.project-name {
 			font-size: 20px;
+		}
+		.project-name:hover {
+			font-size: 22px;
 		}
 		.built-with, .app-desc {
 			font-size: 15px;
